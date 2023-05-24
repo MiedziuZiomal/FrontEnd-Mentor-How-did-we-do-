@@ -74,6 +74,7 @@ p {
     border-radius: 50%;
     background-color: var(--medium-grey);
     transition: background-color .3s, color .3s, transform .3s;
+    cursor: pointer;
 }
 .rate-box__ratings-item:hover {
     background-color: rgb(171, 163, 163);
