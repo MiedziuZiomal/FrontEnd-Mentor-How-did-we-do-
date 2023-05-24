@@ -73,6 +73,12 @@ p {
     height: 40px;
     border-radius: 50%;
     background-color: var(--medium-grey);
+    transition: background-color .3s, color .3s, transform .3s;
+}
+.rate-box__ratings-item:hover {
+    background-color: rgb(171, 163, 163);
+    color:rgb(33, 32, 32);
+    transform:scale(1.1);
 }
 .submit {
     margin-top: 22px;
@@ -85,6 +91,7 @@ p {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
+    cursor: pointer;
 }
 /* 
 @media(min-width:375px){
