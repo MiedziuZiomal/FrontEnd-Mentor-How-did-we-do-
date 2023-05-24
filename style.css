@@ -80,6 +80,11 @@ p {
     color:rgb(33, 32, 32);
     transform:scale(1.1);
 }
+.active {
+    background-color: rgb(171, 163, 163);
+    color:rgb(33, 32, 32);
+    transform:scale(1.1);
+}
 .submit {
     margin-top: 22px;
     height: 50px;
