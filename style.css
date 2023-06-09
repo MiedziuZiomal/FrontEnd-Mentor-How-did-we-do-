@@ -10,6 +10,7 @@
     --dark-blue:hsl(213, 19%, 18%);
     --very-dark-blue:hsl(216, 12%, 8%);
 }
+
 body{
     background-color: var(--very-dark-blue);
     color: var(--white);
@@ -78,12 +79,12 @@ p {
 }
 .rate-box__ratings-item:hover {
     background-color: rgb(171, 163, 163);
-    color:rgb(33, 32, 32);
+    color:#fff;
     transform:scale(1.1);
 }
 .active {
-    background-color: rgb(171, 163, 163);
-    color:rgb(33, 32, 32);
+    background-color: var(--orange);
+    color:#fff;
     transform:scale(1.1);
 }
 .submit {
@@ -98,6 +99,44 @@ p {
     font-weight: bold;
     letter-spacing: 2px;
     cursor: pointer;
+    transition: 0.3s;
+}
+.submit:hover {
+    background-color: #fff;
+    color: var(--orange);
+}
+.thank-you {
+    display: flex;
+    flex-direction: column;
+
+}
+.thank-you-icon {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+.selected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 50%;
+    height: 30px;
+    color: var(--orange);
+    border-radius: 25px;
+    background-color: hsla(216, 12%, 54%, 0.127);
+}
+h2 {
+    text-align: center;
+}
+.thank-you {
+    display: none;
+}
+.thank-you-p {
+    line-height: 20px;
+    text-align: center;
+    padding: 20px;
+    color:rgba(255, 255, 255, 0.417);
 }
 /* 
 @media(min-width:375px){
